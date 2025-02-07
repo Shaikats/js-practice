@@ -18,3 +18,15 @@ console.log(year);
 var age = 17;
 age = 35;
 console.log(age);
+
+var name= Shaikat
+console.log(name)
+
+//String
+
+var name="Shaikat";
+var adress="Dhaka";
+
+//Boolean
+var isRich=true;
+console.log(isRich)
