@@ -6,7 +6,7 @@ if (age >= 18) {
     console.log("You are a minor.");
 } */
 
-var weight=38;
+/* var weight=38;
 var money=200;
 var year=1999;
 
@@ -20,13 +20,16 @@ age = 35;
 console.log(age);
 
 var name= Shaikat
-console.log(name)
+console.log(name) */
 
-//String
+// String
 
 var name="Shaikat";
-var adress="Dhaka";
+var address="Dhaka";
 
-//Boolean
-var isRich=true;
+// Boolean
+var isRich = true;
 console.log(isRich)
+
+var passed=false;
+
