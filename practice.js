@@ -1,35 +1,29 @@
-/* let age = 18;
+/* // Ternary Logical Operator
+let age=17
+let result= age >=18? "adult" : "minor" ;
+console.log(result);
+ */
 
-if (age >= 18) {
-    console.log("You are an adult.");
+/* let score = 80;
+
+let result = score >= 50 ? score >= 80 ?
+    "Passed with Good Number" : "Passed" : "Failed"
+console.log(result); */
+
+/* let email = "1243@gmail.com"
+if (email) {
+    console.log("Submitted");
 } else {
-    console.log("You are a minor.");
-} */
+    console.log("Please Enter Your Email");
+}
+ */
+// &&
 
-/* var weight=38;
-var money=200;
-var year=1999;
+let email = 'abc@gmail.com'
+password = 1243
 
-var sh;
-console.log(money);
-console.log(year);
-
-
-var age = 17;
-age = 35;
-console.log(age);
-
-var name= Shaikat
-console.log(name) */
-
-// String
-
-var name="Shaikat";
-var address="Dhaka";
-
-// Boolean
-var isRich = true;
-console.log(isRich)
-
-var passed=false;
-
+if (email && password) {
+    console.log("Logged in");
+} else {
+    console.log("Please fill in the input fields");
+}
