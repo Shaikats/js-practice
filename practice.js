@@ -18,7 +18,7 @@ if (email) {
 }
  */
 // &&
-
+/* 
 let email = 'abc@gmail.com'
 password = 1243
 
@@ -26,4 +26,22 @@ if (email && password) {
     console.log("Logged in");
 } else {
     console.log("Please fill in the input fields");
+} */
+
+
+// Switch Case for Less and Fixed Conditions
+
+var theme = "dark";
+
+switch (theme) {
+    case "light":
+        console.log("Light Theme Applied");
+        break;
+    case "dark": {
+        console.log("Dark Theme Applied");
+        break;
+    }
+    default:
+        console.log("System Theme Applied");
 }
+
